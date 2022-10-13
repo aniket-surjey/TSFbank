@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance-Bank</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+    <!-- other links -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+    <!-- font-awesome -->
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+
+    <!-- contact form -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- JS file -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+                <img src="{% static 'images/logo.png' %}" alt="logo" class="logo">
+                <a class="navbar-brand font-weight-bold" href="{{curl}}">FINANCE-BANK</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link font-weight-bold" href="{{curl}}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#about-us">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-weight-bold" href="#client">Client</a>
+                  </li>        
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#contact-us">Contact</a>
+                    </li>
+              </ul>
+          </div>
+        </div>
+  </nav>
+
+  <!-- Header starts-->
+  <header class="masthead">
+       <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="fw-light font-weight-bold">FINANCE-BANK</h1>
+                    <p class="lead font-weight-bold">“We need banking but we don’t need banks anymore" - Bill Gates</p>
+                </div>
+            </div>
+       </div>
+  </header>
+  <!-- header ends -->
+
+  <!-- About us starts -->
+  <section id="about-us">
+    <div class="about-us">
+      <div class="about-container">
+        <h1>ABOUT US<h1>
+        <div class="row pt-4">
+                    <div class="col bg-info">
+                        <h1> Vision </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat molestias perspiciatis repellat magnam officiis hic quo, tempora laboriosam ipsam aut earum, expedita quia magni. Labore, asperiores. Blanditiis ipsa, recusandae delectus magni, voluptatum voluptatibus mollitia commodi assumenda accusantium provident temporibus rerum inventore velit, incidunt libero ratione sint harum reprehenderit odio.</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="{% static 'images/vision.jpg' %}" width="200px" alt="..."  class=" mb-2 bg-success rounded">
+                        </div>
+                    </div>
+
+                    <div class="col bg-success">
+                        <h1>Mission</h1>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat molestias perspiciatis repellat magnam officiis hic quo, tempora laboriosam ipsam aut earum, expedita quia magni. Labore, asperiores. Blanditiis ipsa, recusandae delectus magni, voluptatum voluptatibus mollitia commodi assumenda accusantium provident temporibus rerum inventore velit, incidunt libero ratione sint harum reprehenderit odio.</p>
+
+                        <div class="d-flex justify-content-center">
+                            <img src="{% static 'images/mission.jpg' %}" width="200px" alt="..."  class=" mb-2 bg-success rounded">
+                        </div>
+                    </div>
+
+                    <div class="col bg-warning">
+                        <h1>Our Values</h1>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat molestias perspiciatis repellat magnam officiis hic quo, tempora laboriosam ipsam aut earum, expedita quia magni. Labore, asperiores. Blanditiis ipsa, recusandae delectus magni, voluptatum voluptatibus mollitia commodi assumenda accusantium provident temporibus rerum inventore velit, incidunt libero ratione sint harum reprehenderit odio.</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="{% static 'images/values.webp' %}" width="200px" alt="..."  class=" mb-2 bg-success rounded">
+
+                        </div>
+                    </div>
+                </div>
+      </div>
+
+    </div>
+  </section>
+<!-- id="about" -->
+  <!-- About us ends -->
+
+  <!-- Services starts -->
+  <section id="service">
+  <div class="py-5 service-7">
+      <H1 class="font-weight-bold">OUR SERVICES</H1>
+    <div class="container">
+        <!-- Row  -->
+        <div class="row">
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <a href="{{curl}}addcustomer/"><img class="rounded img-fluid" src="{% static 'images/customers.png' %}" alt="wrappixel kit" /></a>
+                    <div class="mt-4">
+                        <h6 class="font-weight-bold">ADD CUSTOMER</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                  <a href="{{curl}}cusdetl/"><img class="rounded img-fluid" src="{% static 'images/transaction_logo.png' %}" alt="wrappixel kit" /></a>
+                    <div class="mt-4">
+                        <h6 class="font-weight-bold">CUSTOMER DETAILS</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                  <a href="{{curl}}transactionH/"><img class="rounded img-fluid" src="{% static 'images/transaction_history_logo.png' %}" alt="wrappixel kit" /></a>
+                    <div class="mt-4">
+                        <h6 class="font-weight-bold">TRANSCATION HISTORY</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+  </div>
+</section>
+
+<div class="text-center" id="client">
+
+  <h1 class="bg-dark text-light mt-4">OUR CLIENTS</h1>
+
+    <div class="row  border border-2">
+      <div class="col">
+        <div class="d-flex justify-content-center">
+            <img src="{% static 'images/x.png' %}" width="200px" alt="..."  class=" mb-2 bg-success rounded">
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="d-flex justify-content-center">
+            <img src="{% static 'images/y.png' %}" width="200px" alt="..."  class=" mb-2 bg-success rounded">
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="d-flex justify-content-center">
+            <img src="{% static 'images/z.png' %}" width="200px" alt="..."  class=" mb-2 bg-success rounded">
+        </div>
+    </div>
+</div>
+
+
+
+
+  <!-- Services ends -->
+  <section class="bg-warning">
+  <div class="container m-4 p-4 text-center align-items d-flex justify-content-start" id="contact-us">
+    <h1 class="py-4 text-light bg-dark">CONTACT US FOR ANY QUERY</h1>
+    <form class="ml-4">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Name</label>
+        <input type="text" class="form-control" id="inputPassword4" placeholder="Enter your Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Ellaborate your concern</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+  </section>
+
+  <!-- footer starts -->
+   <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center font-weight-bold">
+           <small>Copyright © 2022, All Right Reserved FINANCE-BANK  | Banking System <strong>Aniket Surjey</strong></small>
+        </div>
+  </footer>
+   <!-- footer ends  -->
+
+
+
+</body>
+
+</html>
